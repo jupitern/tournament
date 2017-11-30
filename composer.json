@@ -1,0 +1,26 @@
+{
+    "name"       : "jupitern/tournament",
+    "description": "Create tournaments. Draw teams in groups. Draw games per group home and away",
+    "keywords"   : ["tournaments", "teams", "matches", "home and away", "matchday"],
+    "homepage"   : "https://github.com/jupitern/tournament",
+    "license"    : "MIT",
+    "authors"    : [
+        {
+            "name"    : "Nuno Chaves",
+            "email"   : "nuno.chaves@sapo.pt",
+            "role"    : "Developer"
+        }
+    ],
+    "support": {
+        "source": "https://github.com/jupitern/tournament",
+        "issues": "https://github.com/jupitern/tournament/issues"
+    },
+    "require"    :{
+        "php":">=5.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "Jupitern\\": "src/"
+        }
+    }
+}
