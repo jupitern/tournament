@@ -34,7 +34,7 @@ foreach (array_keys($groups) as $groupName) {
 }
 echo '<br/>';
 
-$matches = $tournament->drawMatches();
+$matches = $tournament->drawMatches(false);  // pass true to draw home and away
 
 echo '<b>MATCHES:</b><br/>';
 
@@ -60,7 +60,7 @@ NORTE : SCP, OLH, BEN, POR,
 
 MATCHES:
 
-SUL
+SOUTH
 Matchday #1
 BRA - MAR
 SET - ACA
@@ -75,7 +75,7 @@ ACA - BRA
 
 
 
-NORTE
+NORTH
 Matchday #1
 SCP - POR
 OLH - BEN
